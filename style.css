@@ -1,0 +1,40 @@
+/* Main styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #BB3E81;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.profile-picture img {
+    max-width: 100%; 
+    display: block;
+    margin-bottom: 20px; 
+}
+
+.main-content {
+    margin-left: 340px;
+    padding: 20px;
+}
+
+h2, h3, h4 {
+    margin-bottom: 20px;
+}
